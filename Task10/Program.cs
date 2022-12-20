@@ -12,7 +12,7 @@ while(!correct)
         else
             {
                 correct = true;
-                Console.WriteLine($"Вторая цифра: {testNumber[1]}");
+                Console.WriteLine($"Вторая цифра: {(number/10)%10}");
             }
     }
 
